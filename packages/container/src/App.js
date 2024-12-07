@@ -13,8 +13,7 @@ export default () => {
     <div>
      <BrowserRouter>
      <StylesProvider generateClassName={generateClassName}>
-      <Header/>
-        <hr />
+      <Header/> 
       <MarketingApp />
       </StylesProvider>
      </BrowserRouter>
